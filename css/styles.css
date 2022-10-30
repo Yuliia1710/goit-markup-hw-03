@@ -126,7 +126,6 @@ p {
   margin-left: auto;
 }
 
-
 .header-tel-link {
   padding-left: 50px;
 }
@@ -202,13 +201,8 @@ p {
 
 /* Features */
 
-
 .section-features-list {
   display: flex;
-  /* padding-top: 94px;
-  /* padding-bottom: 94px; */
-  /* padding-left: 15px;
-  padding-right: 15px; */ */
 }
 
 .section-features-list .item:not(:last-child) {
@@ -248,10 +242,6 @@ p {
 .section-work-list .item:not(:last-child) {
   margin-right: 30px;
 }
-
-/* .section-work .centered {
-  text-align: center;
-} */
 
 .section-work-title {
   font-size: 36px;
@@ -339,7 +329,6 @@ p {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
 }
 
 .footer-logo-accent {
@@ -358,7 +347,6 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
