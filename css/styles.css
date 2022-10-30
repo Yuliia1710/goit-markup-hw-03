@@ -32,13 +32,16 @@ p {
 .page-body {
   color: var(--primary-text-color);
   font-family: "Roboto";
-  font-style: normal;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section {
+  padding: 94px 0;
 }
 
 .link,
@@ -65,8 +68,6 @@ p {
 }
 .page-header .container {
   background-color: var(--primary-white-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .link.current {
@@ -103,7 +104,7 @@ p {
 .header-list-link {
   display: block;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 31px;
 
   font-weight: 500;
   font-size: 14px;
@@ -122,16 +123,10 @@ p {
 
 .header-contact-list {
   display: flex;
-  /* margin-right: 15px; */
   margin-left: auto;
 }
-.header-contact-list .item + .item {
-  /* margin-left: 50px; */
-}
 
-.header-mail-link {
-  /* margin-left: 344px; */
-}
+
 .header-tel-link {
   padding-left: 50px;
 }
@@ -153,11 +148,7 @@ p {
 .hero.centered {
   background-color: var(--tertiary-bg-color);
   text-align: center;
-}
-
-.hero-desription {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
 }
 
 .visually-hidden {
@@ -182,9 +173,7 @@ p {
   text-transform: uppercase;
   color: var(--primary-white-color);
 
-  margin-bottom: 30px;
-  margin: auto;
-  padding: 30px;
+  margin: 0 auto 30px;
   max-width: 696px;
 }
 
@@ -213,15 +202,13 @@ p {
 
 /* Features */
 
-.section-features {
-}
 
 .section-features-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-top: 94px;
+  /* padding-bottom: 94px; */
+  /* padding-left: 15px;
+  padding-right: 15px; */ */
 }
 
 .section-features-list .item:not(:last-child) {
@@ -233,6 +220,7 @@ p {
   padding-bottom: 94px;
   text-align: center;
 }
+
 .section-features-title {
   font-size: 14px;
   line-height: 1.14;
@@ -242,6 +230,7 @@ p {
   margin-top: 0;
   margin-bottom: var(--specific-ident);
 }
+
 .section-features-text {
   font-size: 14px;
   line-height: 1.71;
@@ -253,18 +242,16 @@ p {
 
 .section-work-list {
   display: flex;
-  width: 1170px;
-  margin: auto;
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .section-work-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-work .centered {
+/* .section-work .centered {
   text-align: center;
-}
+} */
 
 .section-work-title {
   font-size: 36px;
@@ -284,9 +271,7 @@ p {
 
 .section-team-list {
   display: flex;
-  width: 1170px;
-  margin: auto;
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .section-team-list .item:not(:last-child) {
@@ -327,7 +312,6 @@ p {
 .section-team-text {
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -354,8 +338,8 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
+
 }
 
 .footer-logo-accent {
@@ -368,6 +352,7 @@ p {
 .footer-address {
   font-family: "Roboto";
   font-style: normal;
+  padding-top: 20px;
 }
 .footer-address-text {
   font-weight: 400;
@@ -403,10 +388,8 @@ p {
 
 .section-filter-list {
   display: flex;
-  width: 575px;
-  /* margin-bottom: 34px; */
-  padding-bottom: 34px;
-  margin: auto;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .section-filter-list .item:not(:last-child) {
   margin-right: 8px;
@@ -458,8 +441,6 @@ p {
 
 .section-progects {
   background-color: var(--primary-white-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .progects-list {
@@ -507,7 +488,6 @@ p {
 .progect-list-text {
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 
