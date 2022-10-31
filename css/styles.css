@@ -31,7 +31,7 @@ p {
 
 .page-body {
   color: var(--primary-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 .container {
   max-width: 1200px;
@@ -209,12 +209,6 @@ p {
   margin-right: 30px;
 }
 
-.section-featuers.centered {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
-}
-
 .section-features-title {
   font-size: 14px;
   line-height: 1.14;
@@ -239,6 +233,10 @@ p {
   padding-top: 0;
 }
 
+.section-work {
+  padding-top: 0;
+}
+
 .section-work-list .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -257,11 +255,11 @@ p {
 
 .section-team {
   background-color: var(--secondary-bg-color);
+  padding-top: 0;
 }
 
 .section-team-list {
   display: flex;
-  padding-top: 0;
 }
 
 .section-team-list .item:not(:last-child) {
@@ -458,8 +456,11 @@ p {
   background-color: var(--primary-white-color);
 }
 
+.img-description {
+  padding: 20px 24px;
+}
 .progect-list-img {
-  margin-bottom: 20px;
+  display: block;
 }
 
 .progect-list-title {
@@ -469,8 +470,6 @@ p {
   color: var(--primary-text-color);
 
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .progect-list-text {
@@ -478,8 +477,4 @@ p {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
